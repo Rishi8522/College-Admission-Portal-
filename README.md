@@ -32,6 +32,19 @@ The College Admission Portal is a web application developed using XAMPP with Apa
 - Place the project files (HTML, PHP, etc.) in XAMPP's `htdocs` directory.
 - Access the application through the browser at `http://localhost/`.
 
+## CSS Styling
+
+The project includes a CSS file (`styles.css`) for styling the HTML elements. Here are some of the key styles applied:
+
+- Body styles for setting the font family and background color.
+- Container styles for limiting the width and centering the content.
+- Heading styles for aligning and styling headings.
+- Form styles for styling input elements and buttons.
+- Error and success message styles for displaying feedback to the user.
+
+- Feel free to customize the CSS file to match your project's design requirements.
+
+
 ## Usage
 
 - Open `registration.html` to register as a new user.
