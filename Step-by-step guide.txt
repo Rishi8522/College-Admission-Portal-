@@ -1,0 +1,66 @@
+Step-by-Step Guide
+1. Download and Install XAMPP
+
+Download XAMPP:
+Go to the XAMPP download page.
+Download the installer for your operating system.
+Install XAMPP:
+
+Run the downloaded installer.
+Follow the installation instructions, making sure to install Apache, MySQL, PHP, and phpMyAdmin.
+
+
+2. Start Apache and MySQL
+
+Open XAMPP Control Panel:
+After installation, open the XAMPP Control Panel.
+Start Apache and MySQL:
+
+In the Control Panel, click the "Start" button next to Apache.
+Click the "Start" button next to MySQL.
+Verify the Servers are Running:
+
+Open a web browser and go to http://localhost.
+You should see the XAMPP welcome page.
+
+3. Configure Apache Tomcat with XAMPP
+Download Apache Tomcat:
+Go to the Apache Tomcat download page.
+Download the version suitable for your operating system.
+Extract Tomcat:
+
+Extract the downloaded archive to a directory on your system.
+Configure Tomcat in XAMPP:
+
+Copy the Tomcat directory to your XAMPP installation directory (e.g., C:\xampp).
+Integrate Tomcat with XAMPP:
+
+Open the XAMPP Control Panel.
+
+
+4.Start Tomcat:
+
+In the XAMPP Control Panel, go to "Service" settings and select "Tomcat" to start it.
+Click "Start" next to Tomcat in the Control Panel.
+Verify Tomcat is Running:
+
+Open a web browser and go to http://localhost:8080.
+You should see the Apache Tomcat welcome page.
+
+
+5. Create and Configure a MySQL Database
+Access phpMyAdmin:
+
+Open a web browser and go to http://localhost/phpmyadmin.
+Create a Database:
+
+In phpMyAdmin, click on "New" in the left sidebar to create a new database.
+Name the database college_admission and click "Create".
+Create a Table:
+
+Select the college_admission database.
+
+Click on the "SQL" tab and run the following SQL command to create the students table:
+
+6. Then give access the html files.
+

@@ -1,0 +1,15 @@
+//Mysql commands for database.
+CREATE DATABASE college_admission;
+
+USE college_admission;
+
+CREATE TABLE students (
+    id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    firstname VARCHAR(30) NOT NULL,
+    lastname VARCHAR(30) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    phoneno VARCHAR(15) NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
